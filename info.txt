@@ -1,0 +1,37 @@
+after install phothos , lets add to path :
+
+Open System Properties:
+Press Windows + Break
+Click "Environment Variables"
+Under "System Variables", find "Path"
+Click "Edit"
+Click "New"
+Add these paths one at a time:
+
+C:\Program Files\PothosSDR\bin
+C:\Program Files\PothosSDR\lib
+
+now Click "OK" on all windows
+
+after install python 3.9 and add to path then open terminal as administrator then:
+
+
+cd C:\Users\m0569\AppData\Local\Programs\Python\Python39\Scripts
+python -m pip install --upgrade pip --user
+
+pip install numpy==1.23.5 --user
+
+pip install PyQt5 --user
+
+pip install mako --user
+
+pip install pyyaml --user
+
+pip install wheel --user
+
+
+Let's verify the installation. Open a new Command Prompt and try:
+
+gnuradio-companion
+
+and try C:\Program Files\PothosSDR\bin\gnuradio-companion.exe
